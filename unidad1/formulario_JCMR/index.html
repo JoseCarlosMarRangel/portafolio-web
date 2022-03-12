@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+    <h1>Survey for Product X</h1>
+    <br>
+    <br>
+    
+    <form class="container-fluid" action="index.html" method="GET">
+    
+        <div>
+            <label for=""> Nombre: </label>
+            <input type="text" name="usuario" id="user" placeholder="nombre" required maxlength="5">
+        </div><br>
+        <div>
+            <label class="checkeable">
+                <input type="checkbox" name="cap1"/>
+                <img src="img/imagenesquinaizquierda.png" alt="no se encuentra la imagen">
+            </label>
+            <label class="checkeable">
+                <input type="checkbox" name="cap2"/>
+                <img src="img/imagenesquinaderecha.png" alt="no se encuentra la imagen">
+            </label>
+        </div><br>
+        
+        <div>
+        <p>
+            What's type of devides de you hace at home?<br>
+        
+            <input type="checkbox" name="tablet"> tablet<br>
+        
+            <input type="checkbox" name="smartphone"> smartphone<br>
+        
+            <input type="checkbox" name="pc"> pc<br>
+        
+            <input type="checkbox" name="laptop"> laptop <br
+        
+            
+        </p>
+        </div>
+        
+        <div>
+            <label for="carrer">what's your carrer?</label><br>
+            <select name="carrer" id="carrer">
+                <option value="1">ITI</option>
+                <option value="2">LCIA</option>
+                <option value="3">MEca</option>
+                <option value="4">ISa</option>
+            </select><br><br>
+        </div>
+        
+        <div>
+            <label for=""> White your comments </label><br>
+            <input type="text" name="usuario" id="user" placeholder="Tu respuesta" required maxlength="5">
+        </div><br>
+        
+        <div>
+            <label for="genero">what's you level of english?</label><br>
+            <label>Basic  </label>
+            <input type="radio" name="level" id="level" value="1"><label for="1">1</label>
+            <input type="radio" name="level" id="level" value="2"><label for="2">2</label>
+            <input type="radio" name="level" id="level" value="3"><label for="3">3</label>
+            <input type="radio" name="level" id="level" value="4"><label for="4">4</label>
+            <input type="radio" name="level" id="level" value="5"><label for="5">5</label>
+            <label>More advanced</label>
+        </div><br>
+        
+        <div>
+            <label for="opinion">Give us you opinion</label><br>
+            <label for="genero">Rom service </label>
+            <input type="radio" name="bad" id="bad" value="1"><label for="1">bad</label>
+            <input type="radio" name="Regular" id="Regular" value="2"><label for="2">Regular</label>
+            <input type="radio" name="Good" id="Good" value="3"><label for="3">Good</label>
+            <input type="radio" name="Excelent" id="Excelent" value="4"><label for="4">Excelent</label>
+        </div>
+        
+        <div>
+            <label for="reservation"> Reservation Service </label>
+            <input type="radio" name="bad" id="bad" value="1"><label for="1">bad</label>
+            <input type="radio" name="Regular" id="Regular" value="2"><label for="2">Regular</label>
+            <input type="radio" name="Good" id="Good" value="3"><label for="3">Good</label>
+            <input type="radio" name="Excelent" id="Excelent" value="4"><label for="4">Excelent</label>
+        </div>
+        
+        <div>
+            <label for="retaurant"> Restaurant </label>
+            <input type="radio" name="bad" id="bad" value="1"><label for="1">bad</label>
+            <input type="radio" name="Regular" id="Regular" value="2"><label for="2">Regular</label>
+            <input type="radio" name="Good" id="Good" value="3"><label for="3">Good</label>
+            <input type="radio" name="Excelent" id="Excelent" value="4"><label for="4">Excelent</label>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <br><br>
+        
+        <div>
+            <input type="submit" value="enviar" >
+        </div>
+        
+        <div>
+            <a href="../../index.html">Regreso al Curriculum Vitae</a>
+        </div>
+        
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

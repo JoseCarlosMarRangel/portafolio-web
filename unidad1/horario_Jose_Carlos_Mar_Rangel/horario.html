@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HORARIO UPV Jose Carlos Mar Rangel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="col-auto bg-danger p-4 text-center">
+            <h1 id="titulo">Horario de clases</h1>
+        </div>    
+    </div>
+    
+    <div class="container-fluid">
+        ​<picture>
+            <img width="250" height="150" src="img/imagenesquinaizquierda.png" class="rounded float-start" alt="no se encuentra la imagen">
+        </picture>
+        <picture>
+            <img width="250" height="150" src="img/imagenesquinaderecha.png" class="rounded float-end" alt="no se encuentra la imagen">
+        </picture>
+    </div>
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    
+    <div class="container-fluid">
+       <h2>Datos</h2>
+       <div id="datosdelalumno">
+        <ul type="squared">
+        <li><strong>Alumno: </strong> José Carlos Mar Rangel</li>
+        <li><strong>Matricula:</strong> 1930082</li>
+        <li><strong>Periodo: </strong> Septiembre - Diciembre 2021</li>
+        <li><strong>Programa Academico: </strong> Ingenieria en Tecnologías de la Información</li>
+        <li><strong>Plan de Estudio: </strong> ITI-2018 </li> 
+        <li><strong>Sede: </strong> VICTORIA</li>
+        </ul>
+       </div>
+    </div>
+    
+    <div class="container-fluid">
+        <!--La clase .table-striped añade un efecto "cebra" a las filas de la tabla-->
+        <table border="2" width="100" class="table table-bordered table-responsive" >
+          <thead>
+            <tr><th colspan="6" style="text-align: center">HORARIO</th></tr>
+            <tr>
+              <th>Hora</th>
+              <th style="text-align: center" id="lunes"> Lunes</th>
+              <th style="text-align: center" id="martes">Martes</th>
+              <th style="text-align: center" id="miercoles">Miércoles</th>
+              <th style="text-align: center" id="jueves">Jueves</th>
+              <th style="text-align: center" id="viernes">Viernes</th>
+            </tr>
+          </thead>
+          <tbody>
+          
+            <tr>
+              <td>07:00-07:55</td>
+              <td rowspan="2" style="text-align: center" id="pw">Programación Web</td>
+              <td style="text-align: center" id="pw">Programación Web</td>
+              <td style="text-align: center" id="pw">Programación Web</td>
+              <td rowspan="2" style="text-align: center" id="pw">Programación Web</td>
+              <td rowspan="2" style="text-align: center" id="la">Lenguajes Automatas</td>
+            </tr>
+            <tr>
+              <td>07:55-08:50</td>
+              <td style="text-align: center" id="la">Lenguajes Automatas</td>
+              <td style="text-align: center" id="ir">Ingenieria de Requisitos</td>
+              
+            </tr>
+            <tr>
+              <td>08:50-09:45</td>
+              <td rowspan="2" style="text-align: center" id="en">Ingles</td>
+              <td style="text-align: center" id="en">Ingles</td>
+              <td style="text-align: center" id="en">Ingles</td>
+              <td style="text-align: center" id="en">Ingles</td>
+              <td style="text-align: center" id="en">Ingles</td>
+            </tr>
+            <tr>
+              <td>09:45-10:40</td>
+              <td style="text-align: center" id="lead"> Liderazgo de equipos de alto desempeño</td>
+              <td rowspan="" style="text-align: center" id="lead">Liderazgo de equipos de alto desempeño</td>
+              <td style="text-align: center" id="fpti">Formulación de Proyectos de Tecnologías de la Información</td>
+            </tr>
+            <tr>
+              <td>10:40-11:10</td>
+              <td colspan="5" style="text-align: center" ><strong>RECESO</strong></td>
+            </tr>
+            <tr>
+              <td>11:10-12:05</td>
+              <td rowspan="2" align="center" id="la">Lenguajes Automatas</td>
+              <td rowspan="2" style="text-align: center" id="ir"> Ingenieria de requisitos</td>
+              <td rowspan="2" align="center" id="la">Lenguajes Automatas</td>
+              <td rowspan="2" style="text-align: center" id="lead"> Liderazgo de equipos de alto desempeño</td>
+              <td rowspan="2" style="text-align: center" id="ir"> Ingenieria de requisitos</td>
+            </tr>
+            <tr>
+              <td>12:05-01:00</td>
+            </tr>
+            <tr>
+              <td>01:00-01:55</td>
+              <td rowspan="2" align="center" id="fpti">Formulación de Proyectos de Tecnologías de la Información</td>
+              <td style="text-align: center" id="fpti">Formulación de Proyectos de Tecnologías de la Información</td>
+              <td style="text-align: center" id="fpti">Formulación de Proyectos de Tecnologías de la Información</td>
+              <td style="text-align: center" id="fpti">Formulación de Proyectos de Tecnologías de la Información</td>
+              <td style="text-align: center" id="tutoria"> Tutorias</td>
+            </tr>
+            <tr>
+              <td>02:00-03:00</td>
+            </tr>
+            <tr>
+              <td>Horas por dia</td>
+              <td>8 horas</td>
+              <td>7 horas</td>
+              <td>7 horas</td>
+              <td>7 horas</td>
+              <td>6 horas</td>
+            </tr>
+            
+          </tbody>
+        </table>
+        
+        <div>
+          <a href="../../index.html" target="_blank">REGRESO AL Curriculum Vitae</a>
+      </div>
+      </div>
+<br>
+<br>
+
+
+
+
+<!--Scripts Boostrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+</html>

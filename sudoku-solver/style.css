@@ -1,0 +1,274 @@
+    html,
+    body {
+        background: #e4ecfc;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 600px;
+        justify-content: center;
+    }
+
+    #cell-0_0,
+    #cell-0_1,
+    #cell-0_2 {
+        border-top: 1px solid #000000;
+    }
+    
+    
+    #cell-0_2,
+    #cell-1_2,
+    #cell-2_2 {
+        border-right: 1px solid #000000;
+    }
+    
+    
+    #cell-0_0,
+    #cell-1_0,
+    #cell-2_0 {
+        border-left: 1px solid #000000;
+    }
+    
+    
+    #cell-0_3,
+    #cell-0_4,
+    #cell-0_5 {
+        border-top: 1px solid #000000;
+    }
+    
+    
+    #cell-0_5,
+    #cell-1_5,
+    #cell-2_5 {
+        border-right: 1px solid #000000;
+    }
+    
+    
+    #cell-2_3,
+    #cell-2_4,
+    #cell-2_5 {
+        border-bottom: 1px solid #000000;
+    }
+    
+    
+    #cell-0_3,
+    #cell-1_3,
+    #cell-2_3 {
+        border-left: 1px solid #000000;
+    }
+    
+    
+    #cell-0_6,
+    #cell-0_7,
+    #cell-0_8 {
+        border-top: 1px solid #000000;
+    }
+    
+    #cell-0_8,
+    #cell-1_8,
+    #cell-2_8 {
+        border-right: 1px solid #000000;
+    }
+    
+    #cell-2_6,
+    #cell-2_7,
+    #cell-2_8 {
+        border-bottom: 1px solid #000000;
+    }
+    
+    #cell-0_6,
+    #cell-1_6,
+    #cell-2_6 {
+        border-left: 1px solid #000000;
+    }
+    
+    
+    #cell-3_0,
+    #cell-3_1,
+    #cell-3_2 {
+        border-top: 1px solid #000000;
+    }
+    
+    #cell-3_2,
+    #cell-4_2,
+    #cell-5_2 {
+        border-right: 1px solid #000000;
+    }
+    
+    #cell-5_0,
+    #cell-5_1,
+    #cell-5_2 {
+        border-bottom: 1px solid #000000;
+    }
+    
+    #cell-3_0,
+    #cell-4_0,
+    #cell-5_0 {
+        border-left: 1px solid #000000;
+    }
+    
+    
+    #cell-3_3,
+    #cell-3_4,
+    #cell-3_5 {
+        border-top: 1px solid #000000;
+    }
+    
+    #cell-3_5,
+    #cell-4_5,
+    #cell-5_5 {
+        border-right: 1px solid #000000;
+    }
+    
+    #cell-5_3,
+    #cell-5_4,
+    #cell-5_5 {
+        border-bottom: 1px solid #000000;
+    }
+    
+    #cell-3_3,
+    #cell-4_3,
+    #cell-5_3 {
+        border-left: 1px solid #000000;
+    }
+    
+
+    #cell-3_6,
+    #cell-3_7,
+    #cell-3_8 {
+        border-top: 1px solid #000000;
+    }
+    
+    #cell-3_8,
+    #cell-4_8,
+    #cell-5_8 {
+        border-right: 1px solid #000000;
+    }
+    
+    #cell-5_6,
+    #cell-5_7,
+    #cell-5_8 {
+        border-bottom: 1px solid #000000;
+    }
+    
+    #cell-3_6,
+    #cell-4_6,
+    #cell-5_6 {
+        border-left: 1px solid #000000;
+    }
+    
+
+    #cell-6_0,
+    #cell-6_1,
+    #cell-6_2 {
+        border-top: 1px solid #000000;
+    }
+    
+    #cell-6_2,
+    #cell-7_2,
+    #cell-8_2 {
+        border-right: 1px solid #000000;
+    }
+    
+    #cell-8_0,
+    #cell-8_1,
+    #cell-8_2 {
+        border-bottom: 1px solid #000000;
+    }
+    
+    #cell-6_0,
+    #cell-7_0,
+    #cell-8_0 {
+        border-left: 1px solid #000000;
+    }
+    
+
+    #cell-6_3,
+    #cell-6_4,
+    #cell-6_5 {
+        border-top: 1px solid #000000;
+    }
+    
+    #cell-6_5,
+    #cell-7_5,
+    #cell-8_5 {
+        border-right: 1px solid #000000;
+    }
+    
+    #cell-8_3,
+    #cell-8_4,
+    #cell-8_5 {
+        border-bottom: 1px solid #000000;
+    }
+    
+    #cell-6_3,
+    #cell-7_3,
+    #cell-8_3 {
+        border-left: 1px solid #000000;
+    }
+    
+  
+    #cell-6_6,
+    #cell-6_7,
+    #cell-6_8 {
+        border-top: 1px solid hsl(0, 0%, 0%);
+    }
+    
+    #cell-6_8,
+    #cell-7_8,
+    #cell-8_8 {
+        border-right: 1px solid #000000;
+    }
+    
+    #cell-8_6,
+    #cell-8_7,
+    #cell-8_8 {
+        border-bottom: 1px solid #000000;
+    }
+    
+    #cell-6_6,
+    #cell-7_6,
+    #cell-8_6 {
+        border-left: 1px solid #000000;
+    }
+    table {
+        border: 1px solid #000000;
+    }
+    
+    td {
+        border: 1px solid #000000;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    input {
+        color: #000000;
+        padding: 0;
+        border: 0;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        background-color: #ffffff;
+        outline: none;
+    }
+    body h1 {
+        color: #000000;
+        text-align: center;
+    }
+
+    #btnResolver
+    {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #000000;
+        padding: 10px;
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        outline: none;
+    }

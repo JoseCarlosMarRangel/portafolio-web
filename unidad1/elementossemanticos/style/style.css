@@ -1,0 +1,132 @@
+*
+{
+    margin: 0px; 
+    padding: 0px;
+}
+
+body 
+{
+    background-color: #e6ebe0;
+}
+
+.contenido 
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #F4F1BB;
+}
+
+.header {
+    display: flex;
+    background-color: #ED6A5A;
+}
+
+.header h1
+{
+    font-family: 'Roboto Slab', serif;
+}
+
+.header img
+{
+    width: 20%;
+}
+
+.header h1
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav ul li
+{
+    list-style: none;
+}
+
+nav ul li a
+{
+    margin-left: 20px;
+    text-decoration: none;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav ul li a:hover
+{
+    background-color: #5CA4A9;
+    color: #ffffff;
+}
+
+.clearfix
+{
+    clear:both;
+}
+
+section
+{
+    margin-bottom:20px;
+}
+
+section h2
+{
+    color:#ED6A5A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    border-bottom:2px solid #ED6A5A;
+
+}
+
+section p
+{
+    text-align: justify;
+}
+
+.contenido-principal
+{
+    display: flex;
+}
+
+.contenido-principal .main
+{
+    width: 70%;
+}
+
+.contenido-principal aside
+{
+    width: 300px;
+}
+
+.main, aside
+{
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5%; /* TODO: Borde circular */
+}
+
+aside h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #9BC1BC;
+    margin-bottom:10px;
+}
+
+article, p
+{
+    text-align: justify;
+}
+
+footer
+{
+    background-color: #5CA4A9;
+    text-align: center;
+}
+
+footer label
+{
+    color: #ffffff;
+}
